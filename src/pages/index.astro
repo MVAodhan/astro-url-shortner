@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Links from '../components/Links.astro';
+---
+
+<Layout title="Welcome to Astro.">
+  <main class="w-screen h-screen flex justify-center items-center">
+    <div class="h-auto flex flex-col content-center w-full bg-red-200 sm:w-4/5">
+      <form>
+        <div class="flex flex-col">
+          <label for="url" class="flex justify-center">
+            Enter a url:{' '}
+          </label>
+          <input
+            type="text"
+            name="url"
+            id="url"
+            required
+            class="border border-black rounded"
+          />
+        </div>
+      </form>
+      <Links />
+    </div>
+  </main>
+</Layout>
