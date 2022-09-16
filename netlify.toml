@@ -1,2 +1,2 @@
 [functions]
-3:04:27 PM:     external_node_modules = ["astro"]
+    external_node_modules = ["astro"]
